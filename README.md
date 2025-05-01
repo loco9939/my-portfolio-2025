@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## 김이주 포트폴리오
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 작업 순서
+1. Next.js + TypeScript + TailwindCSS 프로젝트 세팅 [X]
+2. Routing 구조 생성 [X]
+3. global 스타일 세팅
+4. favicon 및 meta 태그 설정
+5. Header / Footer 컴포넌트 생성
+  - footer 연락처(github, email, blog)
+6. 각 페이지 개발
+  - Home
+    - 간단한 자기소개, 프로필 이미지
+  - About
+    - 자기소개, 연락처, 기술스택, 경험 요약
+    - 이력서 pdf 다운로드 링크
+  - Project
+    - 프로젝트 카드 리스트, 간단한 설명
+      - 필터링 기능(개인, 팀, 스택별)
+    - 프로젝트 상세 페이지
+      - 프로젝트명, 소개(설명, 기간, 기술스택, 깃헙, 배포 링크, 팀원), 팀플인 경우 기여도
+      - 트러블 슈팅 경험 및 블로그 글 연결
+7. 스타일링 및 UI 개선
+  - 반응형 레이아웃 구현(PC, Mobile)
+  - 애니메이션 추가
+  - Font 설정
+  - 다크모드 (선택사항)
+8. SEO 및 최적화
+  - 각 페이지 head 메타 태그 작성(title, description)
+  - Open Graph 태그 설정
+  - 이미지 최적화
+  - Lighthouse 성능 체크 및 개선
+9. 배포 및 테스트
